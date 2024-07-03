@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family: "Open Sans", sans-serif;
+    font-size: 10px;
+    
+   
+}
+body{
+    background-color: rgb(252, 252, 252);
+}
+
+.slidebar {
+    background-color: white;
+    padding: 20px;
+    position: flex;
+    /* margin-top: -90px; */
+    
+}
+.slidebar svg{
+    margin-bottom: 14px;
+    padding-right: 10px;
+    padding-top: 18px;
+    
+    
+   
+}
+
+
+.inline-elements {
+    display: inline-flex;
+    align-items: center;
+}
+
+.inline-elements img {
+    margin: 0 5px;
+}
+
+#move{
+    margin-left: 3.5vw;
+    cursor: pointer;
+}
+
+.avater{
+    padding-top: 8vw;
+}
+
+.main-container{
+    position: relative;
+    top: 0%;
+    background-color: white;
+}
+.main-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    
+}
+
+button{
+    margin-left: 20vw;
+    
+}
+
+#join{
+    margin-left: 500px;
+    background-color: white;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+}
+#Start{
+    background-color: rgb(45, 42, 67);
+    margin-left: 20px;
+    border-radius: 10px;
+    height: 35px;
+    width: 120px;
+    color: white ;
+
+}
+.personaldetails{
+    background-color: rgb(253, 253, 253);
+    display:flex;
+    margin:-34% 26% 101% 28%;
+    height:100px;
+    
+    
+    
+}
+.achivementmain{
+
+    display: flex;
+    
+    margin: 20px 200px;
+   
+   
+}
+.achivement{
+   
+    margin: -200px 20px 0 0;
+    padding-left: 100px;
+
+}
+#slidebar{
+    display: flex;
+    background: linear-gradient(to right, rgb(253, 166, 177) 50%, rgb(241, 241, 241) 50%);
+    border: 1vw;
+    height: 1vw;
+   
+    width: 48vw;
+    margin-left: 20vw;
+    margin-top: -4vw;
+    border-radius: 1vw;
+}
+
+#slidebar p{
+    margin-top: -2vw;
+    margin-left: 37vw;
+    font-size: xx-small;
+}
+h3{
+    
+    font-style: bold;
+    font-size: x-large;
+}
+#achievementslider{
+    display: flex;
+    background: linear-gradient(to right, rgb(253, 166, 177) 50%, rgb(241, 241, 241) 50%);
+    border: 1vw;
+    height: 1vw;
+    margin-top: -1.4vw;
+   
+    width: 10vw;
+    margin-left: 20vw;
+    
+    border-radius: 1vw;
+
+}
+.achievementdetails {
+    display: flex;
+    flex-direction:column;
+    margin: 3vw;
+    border: 10px solid #feecec5e;
+    background-color: #feecec5e;
+
+    margin-left: -2vw;
+   
+   
+}
+.achievementimages{
+    
+    display: inline-flex;
+    margin-left: 2vw;
+    height: 15vw;
+    
+
+   
+
+    
+}
+.achievementimages p{
+    position: absolute;
+    margin-top: 12vw;
+    margin-left: 4vw;
+    font-size: medium;
+    
+    
+
+}
+.achivementmainsection{
+    display: inline-flex;
+   
+    
+    
+}
+
+.number{
+    font-size: small;
+    border: 6px solid rgb(240, 240, 240);
+    border-radius: 6px;
+    background-color:rgb(240, 240, 240) ;
+    
+    
+}
+
+.ratio{
+    font-size:xx-small ;
+    margin-left: 55px;
+}
+.achievementdetails img{
+    height: 100px;
+    width:100px ;
+} 
+.achievementdetails p{
+    margin-top: 9vw;
+    margin-left: 23px;
+}
+.achivement p{
+
+    font-size: 10px;
+}
+
+.achivement svg{
+    background-color:rgb(244, 244, 244);
+}
+
+#Start:hover{
+cursor: pointer;
+background-color: rgb(17, 11, 61);
+}
+.slidebar-icons{
+    cursor: pointer;
+}
+#join:hover{
+    cursor: pointer;
+    background-color: #c7111109;
+}
+.todo{
+    display: none;
+    display: flex;
+    margin-left: 37vw;
+    margin-top: -35vw;
+    height: 35vw;
+    width: 42vw;
+    background-color: rgba(154, 227, 9, 0.387);
+    overflow-x: hidden;
+    border-radius: 1vw;
+   
+    overflow-y: hidden;
+}
+
+.todo:hover {
+    overflow-y: auto; 
+}
+.todo::-webkit-scrollbar {
+    width: 6px;
+}
+
+.todo::-webkit-scrollbar-thumb {
+    background-color: rgba(46, 142, 231, 0.5);
+    border-radius: 3vw;
+}
+
+.todo::-webkit-scrollbar-track {
+    background: rgba(128, 81, 216, 0.1);
+}
+
+.todo input[type=search]{
+    
+    margin-left: 4vw;
+    width: 30vw;
+    height: 30px;
+    padding-top: 12px;
+}
+.todo h3{
+    text-align: center;
+    justify-content: center;
+    color: rgb(73, 73, 121);
+   
+  
+    padding-top: 20px;
+    position: sticky; /* Make the h3 sticky */
+    top: 0; /* Stick to the top of the container */
+    margin-top: -1vw;
+    background-color: rgb(156, 226, 16); /* Match the background color */
+    
+    
+    z-index: 1;
+    
+    
+}
+.todo svg{
+  cursor: pointer;
+  
+  margin-top: 1px;
+  margin-left: -3vw;
+  height: 20px;
+ 
+
+}
+
+.todo select{
+    width: 50px;
+    margin-left: 0.5vw;
+}
+
+.todotasks {
+
+    display: flex;
+    
+
+   
+
+}
+
+#addtask{
+
+    position: sticky;
+    margin-top: 19.2vw;
+    margin-left: 38vw;
+    bottom: 0;
+    height: 4vw;
+   
+    
+    
+   
+}
+
+#addtask:hover{
+    scale: 1.5;
+}
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+.hidden {
+    display: none;
+    background-color:rgb(234, 241, 241);
+    
+    margin-top: -28vw;
+    position: sticky;
+    height: 240px;
+    width: 300px;
+    border-radius: 2vw;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.824, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.824, 1.000) both;
+    
+
+
+}
+
+#input-container {
+    
+    margin-left: 4vw;
+    padding-top: 1vw;
+    padding-left: 4vw;
+}
+
+#input-container input, #input-container select {
+    
+    margin-bottom: 12px;
+    padding: 10px;
+    width: 22vw;
+    
+}
+
+#add-button {
+    padding: 10px 20px;
+    
+    background-color: #7a7b7d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: -0.3vw;
+    margin-left: 6.5vw;
+    border-radius: 1vw;
+
+}
+#save-button {
+    padding: 10px 20px;
+    
+    background-color: #7a7b7d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: -0.3vw;
+    margin-left: 6.5vw;
+    border-radius: 1vw;
+
+}
+
+
+#add-button:hover{
+    background-color: rgb(19, 52, 52);
+}
+#save-button:hover{
+    background-color: rgb(19, 52, 52);
+}
+
+#input-container svg{
+    margin-left: 24vw;
+}
+
+.todotasks p{
+    
+    font-size: 12px;
+    padding-left: 10px;
+    
+    margin-top: 1.3vw;
+    
+    
+    
+    
+}
+
+.todotasks svg{
+    margin-left: 1.2vw;
+    margin-top: 1.5vw;
+    transform: translateY(0.6vw);
+    
+}
+.todotasks svg:hover{
+    scale: 1.5;
+}
+
+
+#bookicon{
+    margin-left: 0.5vw;
+    transform: translateY(0.3vw);
+}
+#main_icons{
+    position: absolute;
+right: 0;
+margin-top: -19px;
+
+
+}
+.dataTask{
+    background-color: rgba(31, 12, 242, 0.304);
+    cursor: move;
+}
